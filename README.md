@@ -1,1 +1,2 @@
-# musicc11221
+worker: node bot.js
+
