@@ -235,6 +235,10 @@ if (message.content.startsWith(adminprefix + 'setT')) {
   if (message.content.startsWith(adminprefix + 'setwt')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`✅`)
+} else 
+  if (message.content.startsWith(adminprefix + 'st')) {
+    client.user.setGame(argresult, "https://www.twitch.tv/dream");
+      message.channel.send(`**✅**`
 }
 
 });
