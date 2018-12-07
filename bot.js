@@ -238,7 +238,7 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 } else 
   if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
-      message.channel.send(`**✅**`
+      message.channel.send(`**✅**`)
 }
 
 });
